@@ -4,13 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "parcel watch src/index.html --dist-dir ./apps-script",
+    "build": "parcel build src/index.html --dist-dir ./apps-script",
+    "start": "parcel src/index.html --dist-dir ./apps-script"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/google-apps-script": "^1.0.56",
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
   }
 }
