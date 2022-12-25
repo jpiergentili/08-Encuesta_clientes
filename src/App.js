@@ -1,7 +1,7 @@
-
-
 function App() {
-    return <h1>Hello world!</h1>;
+    return  <div>
+                <h1>hola mundo desde parcel</h1>
+            </div>
 }
 
 export default App

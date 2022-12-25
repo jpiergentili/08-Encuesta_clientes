@@ -2,8 +2,14 @@
   "name": "08-encuestas",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "glogin": "clasp login",
+    "glogout": "clasp logout",
+    "gcreate": "clasp create --title 'React Test Project' --rootDir ./apps-script",
+    "gclone": "clasp clone 15ImUCpyi1Jsd8yF8Z6wey_7cw793CymWTLxOqwMka3P1CzE5hQun6qiC --rootDir ./apps-script",
+    "gpull": "clasp pull",
+    "gpush": "clasp push",
+    "gstart": "clasp push --watch",
     "watch": "parcel watch src/index.html --dist-dir ./apps-script",
     "build": "parcel build src/index.html --dist-dir ./apps-script",
     "start": "parcel src/index.html --dist-dir ./apps-script"
